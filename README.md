@@ -81,6 +81,8 @@ Implementing a Primary/Replica Replication Model would allow for high availabili
 
 Depending on the needs of the application, we could also use indexing to reduce the lookup time on tables for specific fields, as well as add additional verification for data integrity.
 
+In regards to the frontend, I would defer to the design and UX team for instructions and suggest using some form of state management system like Redux or ReactQuery in order to manage client side state. Information like User tokens, reserved items and browsing history could be cached on the client side, allowing for pages to render faster, stored in localStorage or in browser cookies. A services folder would be added to organize the different calls for different APIs and an emphasis would be placed on creating reusable styled-components to maintain consistency across the application.
+
 #Final Thoughts:
 
 Thank you for taking the time to review my code. I look forward to discussing more about the opportunity to work together!
